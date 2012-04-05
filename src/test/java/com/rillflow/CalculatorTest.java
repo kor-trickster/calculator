@@ -36,10 +36,10 @@ public class CalculatorTest {
 		assertThat(calculator.multiply(1, 9999), is(9999));
 	}
 
-	@Test
-	public void divide() throws Exception {
-		assertThat(calculator.divide(1, 9999), is(0));
-	}
+//	@Test
+//	public void divide() throws Exception {
+//		assertThat(calculator.divide(1, 9999), is(0));
+//	}
 	
 	@After
 	public void teardown() {

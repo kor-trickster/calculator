@@ -4,6 +4,9 @@
 	<groupId>com.rillflow</groupId>
 	<artifactId>calculator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<reports>
+		<report>maven-emma-plugin</report>
+	</reports>
 	<properties>
 		<org.slf4j.version>1.6.4</org.slf4j.version>
 	</properties>
